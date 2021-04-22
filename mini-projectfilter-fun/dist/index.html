@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Mini Project - Filter Fun</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js"></script>
+<h1>Mini Project - Filter Fun</h1>
+<p>
+  <canvas id="can"> </canvas>
+</p>
+<h2>Load Image</h2>
+<p>
+  <input type="file" id="finput" accept="image/*" onchange="loadImage()">
+</p>
+
+<h2>Apply filters</h2>
+<p>
+  <input type="button" id="grayscale" value="Gray Scale" onclick="turnGray()">
+  <input type="button" id="red" value="Red" onclick="turnRed()">
+  <input type="button" id="rainbow" value="Rainbow" onclick="turnRainbow()">
+  <input type="button" id="red" value="Sepia" onclick="turnSepia()">
+  <input type="button" id="blur" value="Blur" onclick="turnBlur()">
+</p>
+<p>
+  <input type="button" id="clearImage" value="Reset Image" onclick="clearImage()">
+</p>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

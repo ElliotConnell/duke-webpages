@@ -1,0 +1,20 @@
+body {
+  background-color: MintCream;
+  font-family: Verdrana;
+  margin: 40px;
+  border: 1px solid Green;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: Maroon;
+}
+
+h2 {
+  color: Maroon
+}
+
+canvas {
+  border: 1px solid gray;
+}
